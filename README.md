@@ -29,8 +29,19 @@ git pull origin main
 >
 > 1. Don't use `git push` command on the main branch.
 > 2. Use `git push origin dev` or create your own branch to work on.
+
 - Step 5 : Type in the terminal the following commands to install the dependencies and start the server
 ```cmd
 pip install -r requirements.txt
 python manage.py runserver 
 ```
+
+# Update your changes
+
+```cmd
+git add .
+git commit -m "<COMMIT-MESSAGE>"
+git push origin dev
+```
+
+
